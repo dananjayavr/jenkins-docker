@@ -1,5 +1,4 @@
-# FROM jenkins/jenkins:lts
-FROM reverent_brown 
+FROM jenkins/jenkins:lts-jdk11
 USER root
 
 RUN mkdir -p /tmp/download && \
